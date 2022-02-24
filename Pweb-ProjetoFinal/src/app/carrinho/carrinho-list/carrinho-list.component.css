@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.table-content{
+    background-color: rgba(255, 0, 0, 0.137);
+}
+
+.item-card{
+margin-top: 10px;
+margin-bottom: 20px;
+width: 200px;
+height: auto;
+font-family: 'Righteous', cursive;
+background-color: whitesmoke;
+border-radius: 10px;
+-webkit-box-shadow: -1px 3px 13px 6px rgba(255,1,1,0.22); 
+box-shadow: -1px 3px 13px 6px rgba(245, 3, 3, 0.383);
+}
+
+.remover{
+    width: 40px;
+    height: 35px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(255, 62, 62, 0.349);
+}
+.remover:hover{
+    cursor: pointer;
+    background-color: rgba(241, 25, 25, 0.664);
+
+}
+
+.tituloGeral{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+div.main {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "prod prod prod prod ped";
+    margin: 50px;
+
+}
+
+div.dadosPedido{
+    margin-top: 10px;
+    background-color: rgba(243, 139, 20, 0.452);
+    border-radius: 30px ;
+    grid-area: ped;
+    margin-bottom: 20px;
+}
+
+.total{
+    background-color: rgb(255, 115, 0);
+    border-radius: 5px;
+    height: 50px;
+    width: 80%;
+    margin: 30px 10%;
+    font-size: 20px;
+}
+
+h2.preco{
+    text-align: center;
+    margin-right: 40px;
+    font-weight: 5100;
+    color: rgb(167, 76, 2);
+    font-family: 'Righteous', cursive;
+}
+
+.imagem{
+    height: 160px;
+}
+
+   
+button.voltar{
+    margin-left: 25px;
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: 'Righteous', cursive;
+    background-color: rgba(228, 156, 0, 0);
+    border: none;
+    
+}
+
+div.voltar {
+    display: inline;
+    
+}
+
+button.voltar:hover{
+    cursor: pointer;
+}
+
+button.pedido{
+    background-color: rgb(255, 115, 0);
+    border-radius: 5px;
+    height: 50px;
+    width: 80%;
+    margin: 30px 10%;
+    font-size: 20px;
+    margin-top: 5px;
+    font-family: 'Righteous', cursive;
+}
+button.pedido:first-child{
+    margin-top: 30px;
+}
+
+.button:hover{
+    background-color: rgb(238, 78, 4);
+}
+
+.body{
+    background-image: linear-gradient(to right, rgba(255, 133, 52, 0.945), rgb(243, 239, 32));
+}
+
+
+@media screen and (max-width: 400px) {
+
+    div.main {
+        grid-template-columns: 1fr ;
+        margin: auto;
+        grid-template-areas:"ped" "prod" ;
+    }
+
+
+    .mat-card-title, .mat-card-subtitle, .mat-card-content{
+        font-size: 70%;
+        padding-right: 0;
+    }
+
+    .item-card{
+        width: 70vw;
+        height: auto;
+        margin: 5% 10px;
+        margin-top: 20px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+    }
+ 
+    .imagem{
+        height: 100px;
+    }
+    
+}

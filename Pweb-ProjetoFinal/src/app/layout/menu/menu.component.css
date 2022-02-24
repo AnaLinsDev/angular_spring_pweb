@@ -1,0 +1,15 @@
+.orange-menu{
+    background-color: white;
+    color: rgb(255, 94, 0);
+}
+
+.logout{
+    text-align: right;
+    position: absolute; right: 0;
+    float: right;
+    width: auto;
+    font-weight: bold;
+}
+.logout .mat-icon{
+    color: black;
+}

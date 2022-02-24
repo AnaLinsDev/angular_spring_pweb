@@ -1,0 +1,34 @@
+<div class="body">
+  <button class="carrinho" (click)="goToCarr()" ><mat-icon>shopping_cart</mat-icon>{{quantCarr}}</button> 
+
+<h1 class="tituloGeral">R E S T A U R A N T E S - {{nomeUsuario}}</h1>
+ <mat-form-field class="filtro-restaurante">
+    <mat-label >Filtro</mat-label>
+    <input  matInput placeholder="Filtro por Nome" (keyup)="filtrar(inputFiltro.value)" #inputFiltro>
+  </mat-form-field>
+<div class="main">
+  <mat-card *ngFor="let item of dataSource" class="item-card">
+    <mat-card-header>
+      
+      <mat-card-title>{{item.nome}}</mat-card-title>
+      <mat-card-subtitle>Restaurante</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src={{item.imagem}} alt="Photo" class="imagem">
+    <mat-card-content>
+      <p>
+        {{item.descricao}}
+      </p>
+      <p>Telefone : {{item.telefone[0]}}</p>
+      <p>CEP: {{item.endereco[0]}}</p>
+
+      <button  class="button"  mat-raised-button mat-icon-button color="primary"  (click)="goToLink(item.uuid)">
+          Ver Produtos
+      </button>
+
+    </mat-card-content>
+  </mat-card>
+</div>
+
+</div>
+
+

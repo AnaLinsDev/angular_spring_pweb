@@ -1,0 +1,27 @@
+<div class = "body">
+<mat-card class = 'card-login'>
+    <mat-card-content class = 'content'>
+
+      <mat-card-title align="center" class="title-cadastrar">Cadastrar Endereco</mat-card-title>
+      
+      <mat-form-field appearance="fill" class="mat-form-simples">
+        <mat-label>CEP</mat-label>
+        <input matInput [(ngModel)]="endereco.cep" placeholder="Digite o CEP"required>
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="mat-form-simples">
+        <mat-label >Numero do Local</mat-label>
+        <input matInput [(ngModel)]="endereco.numero_do_local"placeholder="Digite o Número" type ="numero" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="mat-form-simples">
+        <mat-label >Numero do Apartamento </mat-label>
+        <input matInput [(ngModel)]="endereco.numero_do_apt"placeholder="Digite o Número" type ="numero" >
+      </mat-form-field>
+
+    <mat-card-footer align="center">
+      <button class="button" mat-raised-button mat-icon-button color="primary" (click)="inserirEndereco()">
+       Cadastrar
+      </button>
+    </mat-card-footer>
+    </mat-card-content>
+</mat-card>
+</div>

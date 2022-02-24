@@ -1,0 +1,22 @@
+mat-card.example-card{
+    display: grid;
+    align-items: center;
+    width: 30vw;
+    justify-items: center;
+    margin: 0 auto ;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+}
+
+.title-login{
+    color: rgb(255, 102, 0);
+}
+
+.button{
+ background-color: rgb(255, 115, 0);;
+}
+
+.example-full-width{
+    padding-left: 0;
+}

@@ -1,0 +1,29 @@
+.filtro-restaurante{
+    display: grid;
+    width: 50vw;
+    margin: 0 auto ;
+    background-color: rgba(245, 245, 245, 0.075);
+}
+
+.table-content{
+    background-color: rgba(255, 0, 0, 0.137);
+    
+}
+.item-card{
+width: 200px;
+height: auto;
+background-color: whitesmoke;
+border-radius: 10px;
+-webkit-box-shadow: -1px 3px 13px 6px rgba(255,1,1,0.22); 
+box-shadow: -1px 3px 13px 6px rgba(245, 3, 3, 0.383);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 50px;
+}
+
+.imagem{
+    height: 160px;
+}

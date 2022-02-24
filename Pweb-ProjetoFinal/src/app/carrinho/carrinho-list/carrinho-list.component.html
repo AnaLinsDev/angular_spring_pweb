@@ -1,0 +1,45 @@
+<div class="body">
+<div class ="voltar">
+<button class ="voltar" (click)="goToRest()" ><mat-icon>arrow_back_ios</mat-icon></button>
+</div>
+<h1 class="tituloGeral">C A R R I N H O - {{nomeUsuario}}</h1>
+<div class="main">
+  
+    <mat-card *ngFor="let item of dataSource" class="item-card">
+      
+      <mat-card-header>
+        <mat-card-title>{{item.nome}}</mat-card-title>
+        <mat-card-subtitle>Produto</mat-card-subtitle>
+        <button  class ="remover" (click)="removerProduto(item)">
+        <mat-icon>remove_shopping_cart</mat-icon>
+        </button>
+      </mat-card-header>
+      <img mat-card-image src={{item.imagem}} alt="Photo" class="imagem">
+      <mat-card-content>
+        <p>
+          {{item.descricao}}
+        </p>
+        <p>Preco : {{item.preco}}  R$</p>
+        <p>IdRestaurante : {{item.restaurante_id}}</p>
+        <p>IdProduto : {{item.uuid}}</p>
+        <p>IdUsuario : {{item.usuario_id}}</p>
+      </mat-card-content>
+    </mat-card>
+    <div class="dadosPedido">
+      <button  class="pedido"   mat-raised-button mat-icon-button color="primary" (click)="fazerPedido()" >
+        Fazer Pedido
+      </button>
+      <button  class="pedido"  mat-raised-button mat-icon-button color="primary" (click)="cadastroEndereco()" >
+        Cadastrar Endereco
+      </button>
+
+      <h2 class="preco">Preco Total: </h2> 
+      <h2 class="preco"> {{precoTotal}} R$</h2>
+    </div>
+  </div>
+</div>
+     
+  
+  
+  
+  

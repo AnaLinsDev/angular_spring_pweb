@@ -1,0 +1,16 @@
+<p>{{titulo}}</p>
+
+<br />
+
+Nome: <input [(ngModel)]="usuario.nome" /><br />
+CPF: <input [(ngModel)]="usuario.cpf" /><br />
+Idade: <input [(ngModel)]="usuario.idade" /><br />
+<button (click)="inserirUsuario()">Enviar</button><br /><br />
+
+<h2>Aluna: {{aluno}}</h2>
+
+<br />
+
+<ul>
+  <li *ngFor="let usuario of usuarios">{{usuario.nome}}</li>
+</ul>

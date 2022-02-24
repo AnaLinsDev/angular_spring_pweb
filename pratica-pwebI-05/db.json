@@ -1,0 +1,40 @@
+{
+  "usuarios": [
+    {
+      "nome": "Wagner",
+      "telefone": "01234567",
+      "cpf": "36475839281",
+      "idade": "44",
+      "id": 0
+    },
+    {
+      "nome": "ana",
+      "telefone": "0123456789",
+      "cpf": "36223339281",
+      "idade": "434",
+      "id": 1
+    },
+    {
+      "nome": "jOAO",
+      "telefone": "01234567890",
+      "cpf": "36223339281",
+      "idade": "74",
+      "id": 2
+    },
+    {
+      "nome": "mAria",
+      "telefone": "012345",
+      "cpf": "32322323381",
+      "idade": "587",
+      "id": 3
+    },
+    {
+      "nome": "bbb",
+      "cpf": "123133123",
+      "telefone": "1231231231",
+      "idade": "12",
+      "id": 4
+    }
+  ],
+  "mensagens": []
+}

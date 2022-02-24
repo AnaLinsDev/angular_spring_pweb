@@ -1,0 +1,17 @@
+<mat-toolbar class = "orange-menu">
+    <mat-toolbar-row>
+    <span>EATSI</span>
+        <button  mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item [routerLink]="['/cadastrarusuario']">
+        <mat-icon>edit</mat-icon>
+        <span>Cadastrar</span>
+      </button>
+      <button mat-menu-item [routerLink]="['/login']">
+        <mat-icon>person</mat-icon>
+        <span>Entrar</span>
+      </button>
+    </mat-menu>
+     </mat-toolbar-row>

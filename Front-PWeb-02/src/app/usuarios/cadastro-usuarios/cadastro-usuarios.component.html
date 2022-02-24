@@ -1,0 +1,28 @@
+
+<mat-card class = 'card-login'>
+    <mat-card-content class = 'content'>
+      <mat-card-title align="center" class="title-cadastrar">Cadastrar Usuário</mat-card-title>
+      <mat-form-field appearance="fill" class="mat-form-simples">
+        <mat-label>Nome</mat-label>
+        <input matInput [(ngModel)]="usuario.nome" placeholder="digite o nome"required>
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="mat-form-simples">
+        <mat-label>Email</mat-label>
+        <input matInput [(ngModel)]="usuario.email" placeholder="digite o email" type ="email" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="mat-form-simples">
+        <mat-label>Telefone</mat-label>
+        <input matInput [(ngModel)]="usuario.telefone" placeholder="digite o telefone"type="tel" required>
+      </mat-form-field>
+      <mat-form-field appearance="fill" class="mat-form-simples">
+        <mat-label>Senha</mat-label>
+        <input matInput [(ngModel)]="usuario.senha" placeholder="digite o senha" type="password" required>
+      </mat-form-field>
+
+    <mat-card-footer align="center">
+      <button class="button" mat-raised-button mat-icon-button color="primary" (click)="inserirUsuario()">
+       Cadastrar
+      </button>
+    </mat-card-footer>
+    </mat-card-content>
+</mat-card>

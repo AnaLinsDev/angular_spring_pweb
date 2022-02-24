@@ -1,0 +1,30 @@
+<div class="body">
+  <button class ="voltar" (click)="goToRest()" ><mat-icon>arrow_back_ios</mat-icon></button>  
+  <button class="carrinho" (click)="goToCarr()" ><mat-icon>shopping_cart</mat-icon>{{quantCarr}}</button> 
+
+  <h1 class="tituloGeral">P R O D U T O S - {{nomeUsuario}}</h1>
+<div class="main">
+  <mat-card *ngFor="let item of dataSource" class="item-card">
+    <mat-card-header>
+      <mat-card-title >{{item.nome}}</mat-card-title>
+
+    </mat-card-header>
+    <img mat-card-image  src={{item.imagem}} alt="Photo" class="imagem">
+    <mat-card-content>
+      <p >{{item.descricao}}</p>
+      <p >Preco : {{item.preco}} R$</p>
+      <p>IdProduto : {{item.uuid}}</p>
+      <p >IdRestaurante : {{item.restaurante_id}}</p>
+
+      <button  class="button"  mat-raised-button mat-icon-button color="primary"  (click)="inserirProduto(item)">
+        Add no Carrinho
+      </button>
+
+    </mat-card-content>
+  </mat-card>
+</div>
+      
+</div>
+
+
+

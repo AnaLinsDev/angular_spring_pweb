@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.nome{
+    color:  whitesmoke;
+    padding-left:  50px;
+    padding-top: 13px;
+    font-size: x-large;
+}
+.filtro-restaurante{
+    display: grid;
+    width: 50vw;
+    margin: 0 auto ;
+    background-color: rgba(245, 245, 245, 0.075);
+}
+
+.table-content{
+    background-color: rgba(255, 0, 0, 0.137);
+    
+}
+.item-card{
+width: 200px;
+height: auto;
+margin-bottom: 100px;
+font-family: 'Righteous', cursive;
+background-color: whitesmoke;
+border-radius: 10px;
+-webkit-box-shadow: -1px 3px 13px 6px rgba(255,1,1,0.22); 
+box-shadow: -1px 3px 13px 6px rgba(245, 3, 3, 0.383);
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin: 50px;
+
+}
+
+button.carrinho{
+    margin-left: 25px;
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: 'Righteous', cursive;
+    background-color: rgba(228, 156, 0, 0);
+    border: none;
+    text-align: right;
+    float: right;
+    margin-right: 20px; 
+}
+
+
+.imagem{
+    height: 160px;
+}
+
+
+.button{
+    background-color: rgb(255, 115, 0);
+    border-radius: 5px;
+    height: 50px;
+    width: 90%;
+    margin-bottom: 15px;
+    font-size: 20px;
+
+   }
+
+.button:hover{
+    background-color: rgb(238, 78, 4);
+}
+
+div.body{
+    background-image: linear-gradient(to right, rgba(255, 133, 52, 0.945), rgb(243, 239, 32));
+}
+
+.tituloGeral{
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+
+@media screen and (max-width: 400px) {
+
+    .filtro-restaurante{
+        width: 80vw;
+        margin: 0 0 ;
+        background-color: rgba(245, 245, 245, 0.007);
+    }
+    
+
+    .main {
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .mat-card-title, .mat-card-subtitle, .mat-card-content{
+        font-size: 70%;
+        padding-right: 0;
+    }
+
+    .button{
+        font-size: 90%;
+        height: 40px;
+        width: 90%;
+    }
+    .item-card{
+        width: 70%;
+        height: auto;
+        margin: 5% 10px;
+        margin-top: 20px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+    }
+    .imagem{
+        height: 100px;
+    }
+}

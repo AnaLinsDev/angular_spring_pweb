@@ -1,0 +1,12 @@
+
+- Faça usando Map em vez de banco de dados
+
+- Cadastro de clientes	 -> TODO
+
+- Realização de aposta por cliente	 -> TODO
+
+- Realização de sorteio pelo administrador	 -> TODO
+
+
+Link da descrição do projeto : 
+https://onedrive.live.com/view.aspx?cid=39CB01F1659AE96F&authKey=%21ACcCdcArYcOODII&resid=39CB01F1659AE96F%2150818&ithint=%2Epdf&open=true&app=WordPdf

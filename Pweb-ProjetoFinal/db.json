@@ -1,0 +1,214 @@
+{
+  "usuarios": [
+    {
+      "nome": "dddddd",
+      "email": "ddddddd@gmail.com",
+      "telefone": "dddddddddd",
+      "senha": "ddddddddd",
+      "id": 1
+    },
+    {
+      "nome": "teste",
+      "email": "teste@gmail.com",
+      "telefone": "teste",
+      "senha": "teste",
+      "id": 2
+    },
+    {
+      "nome": "joaquin",
+      "email": "joaquin@gmail.com",
+      "telefone": "123",
+      "senha": "123",
+      "id": 3
+    },
+    {
+      "nome": "teste",
+      "email": "teste2@gmail.com",
+      "telefone": "tete",
+      "senha": "teste",
+      "id": 4
+    },
+    {
+      "nome": "pipi",
+      "email": "pipi@gmail.com",
+      "telefone": "pipi",
+      "senha": "pipi",
+      "id": 9
+    },
+    {
+      "nome": "teste",
+      "email": "teste3@gmail.com",
+      "telefone": "teste",
+      "senha": "teste",
+      "id": 10
+    },
+    {
+      "nome": "teste",
+      "email": "teste",
+      "telefone": "teste",
+      "senha": "teste",
+      "id": 11
+    },
+    {
+      "nome": "aaa",
+      "email": "aaa",
+      "telefone": "aaa",
+      "senha": "aaa",
+      "id": 12
+    }
+  ],
+  "restaurantes": [
+    {
+      "nome": "Habbib's",
+      "nota": 3,
+      "cnpj": "12313123",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "endereco": {
+        "cep": "1231231",
+        "numeroLocal": "12"
+      },
+      "telefone": [
+        "90000-0000",
+        "9111-0000"
+      ],
+      "produtos": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "nome": "McDonalds",
+      "nota": 4,
+      "cnpj": "12534323",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "endereco": {
+        "cep": "12345435",
+        "numeroLocal": "65"
+      },
+      "telefone": [
+        "90000-1111",
+        "9111-1111"
+      ],
+      "produtos": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "nome": "Pizzaria Paulista",
+      "nota": 4,
+      "cnpj": "34533123",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "endereco": {
+        "cep": "134346331",
+        "numeroLocal": "76"
+      },
+      "telefone": [
+        "90000-2222",
+        "9111-2222"
+      ],
+      "produtos": [
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "nome": "Doceria da Bia",
+      "nota": 3,
+      "cnpj": "123434123",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "endereco": {
+        "cep": "1234341",
+        "numeroLocal": "72"
+      },
+      "telefone": [
+        "90000-3333",
+        "9111-3333"
+      ],
+      "produtos": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "nome": "Cachorro Quente do João",
+      "nota": 2,
+      "cnpj": "12334433",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "endereco": {
+        "cep": "12343441",
+        "numeroLocal": "434"
+      },
+      "telefone": [
+        "90000-4444",
+        "9111-4444"
+      ],
+      "produtos": [
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "nome": "Açai 83",
+      "nota": 5,
+      "cnpj": "18989923",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "endereco": {
+        "cep": "23231231",
+        "numeroLocal": "672"
+      },
+      "telefone": [
+        "90000-5555",
+        "9111-5555"
+      ],
+      "produtos": [
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "nome": "Acarajé Bahiano",
+      "nota": 3,
+      "cnpj": "1234433443",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "endereco": {
+        "cep": "34344231",
+        "numeroLocal": "134"
+      },
+      "telefone": [
+        "90000-6666",
+        "9111-6666"
+      ],
+      "produtos": [
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "nome": "Sushi Minato",
+      "nota": 4,
+      "cnpj": "34432323",
+      "descricao": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+      "endereco": {
+        "cep": "1999931",
+        "numeroLocal": "412"
+      },
+      "telefone": [
+        "90000-7777",
+        "9111-7777"
+      ],
+      "produtos": [
+        22,
+        23,
+        24
+      ]
+    }
+  ]
+}
